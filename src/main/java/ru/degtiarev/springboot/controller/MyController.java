@@ -1,10 +1,11 @@
 package ru.degtiarev.springboot.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import ru.degtiarev.springboot.model.User;
 import ru.degtiarev.springboot.service.UserService;
-
+@Controller
 public class MyController {
     private final UserService userService;
 
